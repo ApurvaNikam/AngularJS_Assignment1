@@ -1,0 +1,45 @@
+.divHeaderSandwich {
+		height: 3vh; width: 100%; background: rgb(242, 183, 1) none repeat scroll 0% 0% / auto padding-box border-box;
+	}
+	.divHeaderFilling {
+		height: 3vh; width: 100%; background: rgb(0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box; 
+	}
+	.spanHeaderFilling {
+		color:white; padding-left: 20px;
+	}
+	.divMovieStripContainer{
+		overflow: auto; white-space: nowrap;
+	}
+	.divMovieStripObject{
+		width:20%; height:84vh; background-image:url(./images/img06-captainmarvel.jpg); background-position-x: center; border: 1px solid black; position: relative; display: inline-block;
+	}
+	.h1MovieName{
+		position: absolute; top: 50%; left: 50%; transform: translateX(-50%) translateY(-50%); color:white; word-wrap: break-word; white-space: normal; text-align: center;
+	}
+	.imgWishlistCheck{
+		position: absolute; top: 8px; right: 8px; display: none;
+	}
+	.divMovieInfo{
+		height:35vh; width:100%; position:absolute; bottom:0; left:0; background-color: rgba(0,0,0,0.7); display: none;
+	}
+	.h2Info{
+		color:white; text-align:center;
+	}
+	.buttonWishlist{
+		position: absolute; left: 50%; transform: translate(-50%, -50%);
+	}
+	.tableInfo{
+		margin: auto;
+	}
+	.tdLabel{
+		color:white; padding-right: 20px; font-size:1.5em;
+	}
+	.tdValue{
+		color:white; text-align:right;padding-left: 20px; font-size:1.5em;
+	}
+	.spanHyperLink{
+		text-align:center; display:block; font-size:1.5em;
+	}
+	.anchorMovieWiki{
+		display:block; margin: auto;
+	}
